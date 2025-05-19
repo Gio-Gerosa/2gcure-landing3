@@ -71,14 +71,13 @@
 
   <section id="contatto">
     <h2>Richiedi informazioni</h2>
-    <form>
-      <input type="text" placeholder="Giovanna Gerosa" required>
-      <input type="tel" placeholder="Telefono +41775213949" anche WhatsApp required>
-      <input type="email" placeholder="Email 2gcure@hin.ch">
-      <textarea rows="4" placeholder="Messaggio"></textarea>
-      <button class="btn-primary" type="submit">Invia Richiesta</button>
-    </form>
-  </section>
+    <form action="https://formspree.io/f/xwkgbjvz" method="POST">
+  <input type="text" name="nome" placeholder="Nome e Cognome" required>
+  <input type="tel" name="telefono" placeholder="Telefono" required>
+  <input type="email" name="email" placeholder="Email (facoltativa)">
+  <textarea name="messaggio" rows="4" placeholder="Messaggio"></textarea>
+  <button class="btn-primary" type="submit">Invia Richiesta</button>
+</form>
 
   <footer>
     &copy; 2025 2GCure - Assistenza Domiciliare | ✉️ <a href="mailto:2gcure@hin.ch">2gcure@hin.ch</a>
